@@ -1,6 +1,6 @@
 {
-  "name": "joi-sequelize",
-  "version": "0.2.9",
+  "name": "pvmed-joi-sequelize",
+  "version": "0.3.0",
   "scripts": {
     "test": "mocha test --recursive"
   },
@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/mibrito/joi-sequelize.git"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.1.222:11001/repository/npm-hosted/"
   }
 }
